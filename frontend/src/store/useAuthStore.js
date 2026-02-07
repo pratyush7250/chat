@@ -5,7 +5,7 @@ import toast from "react-hot-toast";
 import { io } from "socket.io-client";
 
 
-const BASE_URL = "https://chat-587d.onrender.com";
+const BASE_URL = "https://chat-backend-fejm.onrender.com/";
 
 export const useAuthStore = create((set, get) => ({
     authUser: null,  //when user is authentcated store user info here
