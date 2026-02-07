@@ -8,6 +8,8 @@ const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
     origin: ["https://chatty-lzfz.onrender.com"],
+    methods: ["GET", "POST"],
+    credentials: true,
   },
 });
 
