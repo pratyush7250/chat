@@ -16,7 +16,7 @@ const PORT=process.env.PORT
 app.use(express.json())
 app.use(cookieParser());
 app.use(cors({
-    origin:'https://chatty-frontend-3uy7.onrender.com',
+    origin:'https://chatty-lzfz.onrender.com',
     credentials:true //we allow to sned cookies and headers send from frontend 
 }))
 
